@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 
 import { Cormorant_Garamond, DM_Sans } from "next/font/google"
+import Footer from "@/components/layout/Footer";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -26,14 +27,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${cormorant.variable} ${dmSans.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">
-        <Navbar />
-        <main className="flex-1">{children}</main>
-      </body>
-    </html>
+<html
+  lang="en"
+  className={`${cormorant.variable} ${dmSans.variable} h-full antialiased`}
+>
+  <body className="min-h-full flex flex-col">
+    <Navbar />
+    <main className="flex-1">{children}</main>
+  </body>
+</html>
   );
 }
