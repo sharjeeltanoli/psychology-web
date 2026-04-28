@@ -9,6 +9,7 @@ interface ServiceCardProps {
   pricePKR: number
   priceUSD: number
   color: string
+  slug: string
   index: number
   visible: boolean
 }
@@ -21,12 +22,13 @@ export default function ServiceCard({
   pricePKR,
   priceUSD,
   color,
+  slug,
   index,
   visible,
 }: ServiceCardProps) {
   return (
     <div
-      className="light-border relative rounded-2xl p-6 bg-[#F7F3EE] cursor-pointer border-2 border-transparent transition-colors duration-200 hover:bg-white hover:shadow-lg"
+      className="light-border relative rounded-2xl p-6 bg-[#F7F3EE] cursor-pointer border-2 border-transparent transition-colors duration-200 hover:bg-white hover:shadow-lg flex flex-col"
       style={{
         opacity: visible ? 1 : 0,
         transform: visible ? "translateY(0px)" : "translateY(30px)",
@@ -45,7 +47,7 @@ export default function ServiceCard({
       <h3 className="font-serif text-xl text-[#1E2D3D] mb-2">{title}</h3>
 
       {/* Description */}
-      <p className="text-sm text-[#5a6a7a] leading-relaxed mb-5">{description}</p>
+      <p className="text-sm text-[#5a6a7a] leading-relaxed mb-5 flex-1">{description}</p>
 
       {/* Footer */}
       <div className="flex items-center justify-between">
@@ -56,13 +58,32 @@ export default function ServiceCard({
             <span className="text-xs text-[#8a9aaa]">/ ${priceUSD}</span>
           </p>
         </div>
-        <Link
-          href="/booking"
-          className="text-xs font-medium px-4 py-2 rounded-full transition-all duration-200"
-          style={{ backgroundColor: `${color}15`, color }}
-        >
-          Book Now →
-        </Link>
+        <div className="flex flex-col items-end gap-2">
+          <div className="flex items-center gap-2">
+  <Link
+  href={`/services/${slug}`}
+  className="text-xs font-medium px-4 py-2 rounded-full border transition-all duration-200 hover:text-white"
+  style={{ borderColor: color, color }}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.backgroundColor = color
+    e.currentTarget.style.color = "white"
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.backgroundColor = "transparent"
+    e.currentTarget.style.color = color
+  }}
+>
+  Learn More
+</Link>
+  <Link
+    href="/booking"
+    className="text-xs font-medium px-4 py-2 rounded-full transition-all duration-200"
+    style={{ backgroundColor: `${color}15`, color }}
+  >
+    Book Now →
+  </Link>
+</div>
+        </div>
       </div>
     </div>
   )
