@@ -111,7 +111,7 @@ const years = useCountUp(experience)
             style={{ borderRadius: "42% 58% 55% 45% / 48% 42% 58% 52%" }}
           >
             <Image
-          src=""
+          src="/images/ayman.jpg"
           alt="Ms. Ayman Yamin - Clinical Psychologist"
           fill
           sizes="(max-width: 768px) 100vw, 50vw"
