@@ -114,7 +114,7 @@ const years = useCountUp(experience)
             style={{ borderRadius: "42% 58% 55% 45% / 48% 42% 58% 52%" }}
           >
             <Image
-          src="/images/ayman.jpg"
+          src="/images/ayman.png"
           alt="Ms. Ayman Yamin - Clinical Psychologist"
           fill
           sizes="(max-width: 768px) 100vw, 50vw"
@@ -142,11 +142,11 @@ const years = useCountUp(experience)
             </div>
           </div>
 
-          {/* Float card 2 */}
-          <div className="absolute top-8 -right-4 bg-white rounded-2xl px-4 py-3 shadow-lg border border-[#e8eef3]">
-            <p className="text-[10px] text-[#8a9aaa]">Next available</p>
-            <p className="text-sm font-medium text-[#2C3E50]">Today, 4:00 PM</p>
-          </div>
+         {/* Float card 2 */}
+<div className="absolute top-8 -right-4 bg-white rounded-2xl px-4 py-3 shadow-lg border border-[#e8eef3]">
+  <p className="text-[10px] text-[#8a9aaa]">Sessions available</p>
+  <p className="text-sm font-medium text-[#2C3E50]">Online Worldwide 🌍</p>
+</div>
 
         </div>
         {/* RIGHT END */}
