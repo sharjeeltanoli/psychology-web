@@ -26,6 +26,9 @@ const years = useCountUp(experience)
     setMounted(true)
   }, [])
 
+
+  
+
   return (
     <section className="relative overflow-hidden bg-[#F7F3EE] min-h-[90vh] flex items-center">
 

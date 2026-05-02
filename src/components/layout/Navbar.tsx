@@ -45,11 +45,13 @@ export default function Navbar() {
         </nav>
 
         {/* Desktop CTA */}
-        <div className="hidden md:block">
-          <Button className="bg-[#4A7B9D] hover:bg-[#2C3E50] text-white rounded-full px-6">
-            Book Session
-          </Button>
-        </div>
+<div className="hidden md:block">
+  <Link href="/booking">
+    <Button className="bg-[#4A7B9D] hover:bg-[#2C3E50] text-white rounded-full px-6">
+      Book Session
+    </Button>
+  </Link>
+</div>
 
         {/* Mobile Menu */}
         <Sheet open={open} onOpenChange={setOpen}>
