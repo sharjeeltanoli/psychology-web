@@ -16,67 +16,136 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    slug: "understanding-anxiety",
-    title: "Understanding Anxiety: Signs, Causes & How to Cope",
-    excerpt: "Anxiety is one of the most common mental health conditions worldwide. Learn how to recognize the signs and what you can do to manage it effectively.",
+    slug: "understanding-anxiety-stress-depression",
+    title: "Anxiety, Stress & Depression: Understanding the Hidden Struggles of Modern Life",
+    excerpt: "Many people silently suffer from anxiety, stress, and depression without understanding that these are curable mental health conditions — not personal weaknesses.",
     category: "Anxiety",
-    date: "April 20, 2025",
-    readTime: "5 min read",
+    date: "May 1, 2025",
+    readTime: "8 min read",
     image: "/images/blog/anxiety.png",
     author: {
       name: "Ms. Ayman Yamin",
-      title: "Clinical Psychologist",
+      title: "Clinical Psychologist | CBT Practitioner | APA Member",
       image: "/images/ayman.png",
     },
     content: `
-Anxiety is a natural human response to stress and uncertainty. However, when anxiety becomes persistent and overwhelming, it can interfere with daily life, relationships, and overall well-being.
+In today's fast-paced world, many people silently suffer from anxiety, stress, and depression without understanding that these are curable mental health conditions — not personal weaknesses. People often say, "I'm just stressed," when in reality they may be dealing with severe anxiety or early signs of depression.
 
-## What is Anxiety?
+Ignoring emotional distress does not make it disappear. It often grows quietly until it starts affecting sleep, work performance, relationships, physical health, and self-confidence.
 
-Anxiety is your body's natural alarm system. It evolved to help us respond to danger — the "fight or flight" response. But in today's world, this alarm can go off even when there is no real threat, leaving us feeling constantly on edge.
+## Why Mental Health Matters More Than Ever
 
-## Common Signs of Anxiety
+According to the World Health Organization, anxiety disorders are among the most common mental disorders globally, affecting approximately 359 million people in 2021. Yet only about 1 in 4 people receive treatment — meaning millions of people continue living in emotional pain unnecessarily.
 
-- Persistent worry or fear that is hard to control
-- Feeling restless, on edge, or easily fatigued
-- Difficulty concentrating or mind going blank
-- Muscle tension and headaches
-- Sleep disturbances — difficulty falling or staying asleep
-- Physical symptoms like rapid heartbeat or shortness of breath
+## What Is Stress?
 
-## What Causes Anxiety?
+Stress is the body's natural reaction to pressure, demands, or perceived threats. It is not always harmful. In moderate amounts, stress can motivate you to meet deadlines, prepare for exams, or respond to challenges. But chronic stress becomes damaging when the body remains in survival mode for too long.
 
-Anxiety can stem from a combination of factors including genetics, brain chemistry, personality, and life experiences. Stressful events such as work pressure, relationship difficulties, financial concerns, or traumatic experiences can trigger or worsen anxiety.
+**Common causes of stress:**
+- Financial problems
+- Family conflict
+- Job pressure
+- Academic burden
+- Relationship issues
+- Health concerns
+- Trauma or loss
 
-## How to Cope with Anxiety
+**Symptoms of stress:**
+- Headaches and muscle tension
+- Irritability and poor sleep
+- Fatigue and overthinking
+- Poor concentration
+- Digestive issues
 
-**1. Practice Mindfulness**
-Mindfulness helps you stay present and reduces overthinking. Simple breathing exercises can calm your nervous system within minutes.
+Stress is often the doorway through which anxiety and depression enter.
 
-**2. Challenge Negative Thoughts**
-Cognitive Behavioral Therapy (CBT) teaches us to identify and challenge unhelpful thought patterns. Ask yourself — is this thought based on facts or fears?
+## What Is Anxiety?
 
-**3. Stay Active**
-Regular physical exercise is one of the most effective natural treatments for anxiety. Even a 30-minute walk can significantly reduce anxiety levels.
+Anxiety is more than usual worry. It becomes a disorder when fear, nervousness, or panic become excessive, persistent, and interfere with daily life.
 
-**4. Limit Caffeine and Alcohol**
-Both substances can worsen anxiety symptoms. Try replacing coffee with herbal teas and limiting alcohol intake.
+**Common anxiety symptoms:**
+- Persistent worrying and racing thoughts
+- Feeling something bad will happen
+- Panic attacks
+- Sweating, fast heartbeat, trembling
+- Restlessness and trouble sleeping
+- Avoiding people or situations
 
-**5. Seek Professional Help**
-If anxiety is significantly impacting your life, speaking with a qualified psychologist can make a profound difference. Therapy provides tools and strategies tailored specifically to your needs.
+**Types of anxiety disorders:**
+- Generalized Anxiety Disorder (GAD)
+- Panic Disorder
+- Social Anxiety Disorder
+- Phobias
+- Health Anxiety
 
-## When to Seek Help
+*Many people with anxiety look "fine" from the outside. They smile, work, socialize — but internally they are exhausted. Anxiety steals peace before it steals performance.*
 
-If anxiety is affecting your work, relationships, or quality of life, it is time to reach out. You do not have to manage it alone. With the right support, anxiety is very treatable.
+## What Is Depression?
+
+Depression is not laziness, weakness, or sadness. It is a real psychological condition that affects mood, motivation, thinking, energy, and physical functioning.
+
+**Symptoms of depression:**
+- Persistent sadness or feeling empty and numb
+- Loss of motivation and hopelessness
+- Low self-worth and fatigue
+- Social withdrawal
+- Difficulty concentrating
+- Thoughts of death or self-harm
+
+**Hidden signs people often miss:**
+- Irritability instead of sadness
+- Silence instead of tears
+- Overworking to avoid emotions
+- Smiling in public, suffering in private
+
+## Anxiety vs Stress vs Depression
+
+**Stress** — Main emotion: Pressure. Pattern: "Too much to handle."
+**Anxiety** — Main emotion: Fear/Worry. Pattern: "Something bad will happen."
+**Depression** — Main emotion: Hopelessness. Pattern: "Nothing matters anymore."
+
+These conditions often overlap. Someone under chronic stress may develop anxiety. Untreated anxiety may lead to depression.
+
+## How CBT Helps
+
+As a CBT practitioner, I often tell clients: your thoughts affect your emotions. Your emotions affect your behavior. Your behavior reinforces your thoughts. That cycle can be changed.
+
+**CBT helps by:**
+- Identifying negative thinking patterns
+- Reducing catastrophic thinking
+- Teaching emotional regulation
+- Building confidence
+- Gradual exposure to fears
+- Improving routine and motivation
+
+## Self-Help Strategies That Actually Work
+
+**For stress:** Set realistic priorities, learn to say no, daily exercise, limit caffeine, take breaks from screens.
+
+**For anxiety:** Slow breathing exercises, reduce reassurance-seeking, challenge fearful thoughts, face avoided situations gradually.
+
+**For depression:** Follow a daily routine, get sunlight exposure, start with tiny tasks, stay connected socially, move your body even when unmotivated.
+
+## When to Seek Professional Help
+
+Book support if symptoms last more than two weeks or affect your functioning:
+- You cannot sleep properly
+- Panic attacks are increasing
+- Work or study performance is dropping
+- You isolate yourself
+- You feel hopeless
+- You think life is not worth living
+
+Seeking therapy early prevents years of suffering. You deserve support — and recovery is possible.
     `,
   },
   {
-    slug: "breaking-stigma-mental-health",
-    title: "Breaking the Stigma Around Mental Health in Pakistan",
-    excerpt: "Mental health stigma remains a significant barrier to seeking help in Pakistan. Let us talk about why it exists and how we can change the conversation.",
+    slug: "understanding-psychosis",
+    title: "Understanding Psychosis: Symptoms, Causes, and When to Seek Help",
+    excerpt: "Psychosis is more common than many people realize. With early intervention and appropriate treatment, the outlook for most people is genuinely positive.",
     category: "Mental Health",
-    date: "April 10, 2025",
-    readTime: "6 min read",
+    date: "April 25, 2025",
+    readTime: "7 min read",
     image: "/images/blog/stigma.png",
     author: {
       name: "Ms. Ayman Yamin",
@@ -84,94 +153,268 @@ If anxiety is affecting your work, relationships, or quality of life, it is time
       image: "/images/ayman.png",
     },
     content: `
-In Pakistan, mental health is still a topic shrouded in silence, shame, and misunderstanding. Despite growing awareness globally, many people in our society continue to suffer in silence due to fear of judgment and stigma.
+## What is Psychosis?
 
-## The Reality of Mental Health in Pakistan
+Psychosis is a mental state in which a person loses some contact with reality. It is not a diagnosis in itself but rather a symptom or cluster of symptoms that can arise in a number of different conditions. During a psychotic episode, a person's thoughts and perceptions are disrupted in ways that make it difficult to recognize what is real and what is not.
 
-Studies suggest that approximately 34 million Pakistanis suffer from some form of mental health condition. Yet the majority never seek professional help. Cultural norms, religious misconceptions, and lack of awareness all contribute to this gap.
+Psychosis is more common than many people realize. Roughly 3 in 100 people will experience at least one psychotic episode in their lifetime. With early intervention and appropriate treatment, the outlook for most people is positive.
 
-## Why Does Stigma Exist?
+## Symptoms of Psychosis
 
-**Lack of Education**
-Many people simply do not understand what mental illness is. Conditions like depression and anxiety are often dismissed as "weakness" or "overthinking."
+Symptoms are typically grouped into three categories:
 
-**Cultural Pressure**
-In our culture, there is immense pressure to appear strong and composed. Admitting to emotional struggles is often seen as shameful.
+**Positive symptoms** — experiences added to reality:
+- Hallucinations (hearing voices, seeing things others do not)
+- Delusions (firmly held false beliefs)
+- Disorganized thoughts or speech
 
-**Religious Misconceptions**
-Some believe that mental illness is a spiritual failing or punishment. This is a misunderstanding — faith and professional mental health care can coexist beautifully.
+**Negative symptoms** — reduction of normal functions:
+- Flat affect and reduced speech
+- Loss of motivation and social withdrawal
+- Difficulty experiencing pleasure
 
-## How We Can Change This
+**Cognitive symptoms:**
+- Difficulties with memory, attention, and processing speed
+- Trouble planning or following complex instructions
+- Confusion and disorientation
 
-- Talking openly about mental health in families and communities
-- Supporting loved ones who are struggling without judgment
-- Educating ourselves and others about mental health conditions
-- Encouraging professional help as a sign of strength, not weakness
+## Early Warning Signs
 
-## You Are Not Alone
+Sometimes called a prodromal phase, these can precede a full episode:
+- Increased suspicion or unease around others
+- Difficulty concentrating or following conversations
+- Unusual perceptual experiences
+- Sudden shifts in mood or unusual emotional responses
+- Declining personal hygiene or self-care
+- Withdrawing from friends, family, and usual activities
+- Trouble sleeping or marked changes in sleep patterns
 
-Seeking help is one of the bravest things you can do. Mental health challenges do not define you — they are conditions that can be treated with the right support.
+## Causes and Risk Factors
+
+Psychosis does not have a single cause. Research suggests it arises from an interaction of biological, psychological, and social factors.
+
+**Genetic:** Family history of psychosis or conditions such as schizophrenia increases susceptibility.
+
+**Neurological:** Imbalances in dopamine and other neurotransmitters play a central role in psychotic symptoms.
+
+**Substance use:** Heavy or prolonged use of cannabis, stimulants, hallucinogens, or alcohol can trigger episodes.
+
+**Mental illness:** Schizophrenia, bipolar disorder, severe depression, and PTSD can all involve psychotic features.
+
+**Life stress:** Severe trauma, sleep deprivation, bereavement, or extreme stress can precipitate episodes in vulnerable individuals.
+
+## When to Seek Help
+
+Early treatment significantly improves outcomes. Do not wait for symptoms to become severe before reaching out.
+
+**1. Speak to a doctor**
+If you or someone you know is showing early warning signs — unusual beliefs, perceptual changes, withdrawal — a doctor is the right first point of contact.
+
+**2. Contact a mental health professional**
+A psychologist can provide assessment, support, and evidence-based therapy alongside any medical treatment.
+
+**3. Seek emergency help immediately if:**
+The person is threatening or acting violently, expressing intent to harm themselves, completely unresponsive to their environment, or behaving in a way that puts their life at risk.
+
+## Treatment and Recovery
+
+Psychosis is treatable. Most people experience significant improvement — and many recover fully with the right support. Treatment typically involves:
+
+- **Psychological therapies** — particularly Cognitive Behavioural Therapy (CBT) adapted for psychosis
+- **Antipsychotic medication** — to reduce the intensity of symptoms such as hallucinations and delusions
+- **Family support and education** — helping relatives understand and respond constructively
+- **Social support** — community programs to aid long-term recovery
+- **Early Intervention services** — specialist teams focused on supporting people in the first episode
+
+Recovery from psychosis is not only possible — it is the most common outcome with appropriate, timely care.
     `,
   },
   {
-    slug: "how-cbt-works",
-    title: "How Cognitive Behavioral Therapy (CBT) Can Transform Your Life",
-    excerpt: "CBT is one of the most evidence-based and effective forms of therapy. Discover how it works and why it might be the right approach for you.",
-    category: "Therapy",
-    date: "March 28, 2025",
-    readTime: "7 min read",
-    image: "/images/blog/cbt.png",
+    slug: "understanding-addiction",
+    title: "Addiction: Understanding the Cycle and How a Psychologist Can Help",
+    excerpt: "Addiction is not a weakness or a choice. It is a complex, chronic condition of the brain — and one that responds remarkably well to the right psychological care.",
+    category: "Addiction",
+    date: "April 20, 2025",
+    readTime: "8 min read",
+    image: "/images/blog/addiction.png",
     author: {
       name: "Ms. Ayman Yamin",
       title: "Clinical Psychologist",
       image: "/images/ayman.png",
     },
     content: `
-Cognitive Behavioral Therapy, commonly known as CBT, is one of the most researched and effective forms of psychological therapy available today. It has been proven to help with anxiety, depression, OCD, PTSD, and many other conditions.
+## What is addiction, really?
 
-## What is CBT?
+Most people picture addiction as an image of someone unable to put down a bottle, or a person chasing a substance against all reason. While those images are not wrong, they are only part of the story. Addiction is a condition in which a person compulsively seeks a substance or behaviour despite knowing it is causing serious harm to their health, relationships, and daily life.
 
-CBT is based on the idea that our thoughts, feelings, and behaviors are interconnected. Negative thought patterns lead to negative emotions, which in turn lead to unhelpful behaviors. By changing how we think, we can change how we feel and act.
+What makes addiction so powerful, and so misunderstood, is that it is rooted in the brain. Repeated exposure to an addictive substance or behaviour physically rewires the brain's reward system. The brain begins to treat the addiction as a survival need. This is why willpower alone is rarely enough.
 
-## The CBT Triangle
+*Addiction is not a moral failure. It is a chronic brain condition shaped by biology, psychology, and circumstance.*
 
-**Thoughts → Feelings → Behaviors**
+## Chemical vs. non-chemical addiction
 
-For example: If you think "I am going to fail," you feel anxious, and then you avoid the situation. CBT helps break this cycle.
+**Chemical (substance) addiction includes:**
+- Alcohol
+- Nicotine and tobacco
+- Cannabis
+- Opioids (heroin, painkillers)
+- Cocaine and stimulants
+- Prescription medication misuse
 
-## How Does CBT Work in Therapy?
+**Non-chemical (behavioural) addiction includes:**
+- Gambling disorder
+- Gaming and internet addiction
+- Social media compulsion
+- Compulsive shopping or spending
+- Food addiction / binge eating
 
-In CBT sessions, you and your therapist work together to:
+Both types share the same dopamine reward loop, loss of control, cravings, and relapse risk.
 
-1. **Identify negative automatic thoughts** — the thoughts that pop into your mind in difficult situations
-2. **Challenge those thoughts** — examining the evidence for and against them
-3. **Replace them with balanced, realistic thoughts**
-4. **Practice new behaviors** through homework and real-life exercises
+## Recognizing the symptoms
 
-## What Conditions Does CBT Help With?
+**Physical symptoms:**
+- Tolerance — needing more to feel the same effect
+- Withdrawal symptoms when not using
+- Neglected physical health and hygiene
+- Changes in sleep, appetite, weight, or energy
 
-- Anxiety and panic disorders
-- Depression
-- OCD (Obsessive Compulsive Disorder)
-- PTSD and trauma
-- Phobias
-- Low self-esteem
-- Relationship difficulties
+**Psychological symptoms:**
+- Intense cravings and preoccupation
+- Anxiety, depression, or mood swings when unable to use
+- Denial — minimizing the problem
+- Shame, guilt, and low self-worth
 
-## Is CBT Right for You?
+**Behavioural symptoms:**
+- Using more, or for longer, than intended
+- Failed attempts to cut down or stop
+- Withdrawing from family and friends
+- Continuing despite clear harm
 
-CBT is structured, goal-oriented, and time-limited — making it ideal for people who want practical tools and clear results. Most people see significant improvement within 8-16 sessions.
+## My role as a psychologist in treating addiction
 
-If you are curious about whether CBT could help you, feel free to reach out for a free consultation.
+**1. Comprehensive assessment**
+Before any treatment begins, I carry out a thorough psychological assessment — exploring the history of use, mental health, trauma, and what function the addiction serves.
+
+**2. Building motivation for change**
+Motivational Interviewing (MI) helps clients explore their ambivalence about change without judgment.
+
+**3. Cognitive Behavioural Therapy (CBT)**
+CBT is the gold standard for both chemical and non-chemical addiction. I help clients identify the thoughts, emotions, and triggers that drive their behaviour.
+
+**4. Addressing trauma and underlying pain**
+For many clients, addiction is a symptom of unprocessed trauma. I use trauma-informed approaches including EMDR where appropriate.
+
+**5. Rebuilding life skills and identity**
+Recovery is more than stopping — it is learning who you are without the substance or behaviour.
+
+**6. Supporting families**
+Addiction affects the whole family system. I work with family members to understand addiction and set healthy boundaries.
+
+## A note on relapse
+
+Relapse is not failure. It is a common and expected part of the recovery process. In my practice, I help clients understand that relapse is data, not defeat — it tells us what still needs to be addressed.
+
+## Recovery is possible
+
+Whether the addiction is to a substance or a screen — recovery is possible. The brain that was rewired by addiction can be rewired again, toward health, connection, and hope. If you are struggling, please reach out. You do not have to navigate this alone.
     `,
   },
   {
-    slug: "self-care-for-mental-health",
-    title: "10 Self-Care Practices That Genuinely Support Mental Health",
-    excerpt: "Self-care is more than bubble baths and face masks. Discover evidence-based practices that truly make a difference to your mental well-being.",
+    slug: "understanding-ocd-and-ptsd",
+    title: "OCD & PTSD: Understanding Trauma and Obsessive Thoughts",
+    excerpt: "OCD is not about being tidy — and PTSD is not a sign of weakness. Both are serious, highly treatable conditions that respond remarkably well to the right psychological care.",
+    category: "Trauma",
+    date: "April 10, 2025",
+    readTime: "10 min read",
+    image: "/images/blog/trauma.png",
+    author: {
+      name: "Ms. Ayman Yamin",
+      title: "Clinical Psychologist",
+      image: "/images/ayman.png",
+    },
+    content: `
+## Obsessive-Compulsive Disorder: Beyond the Stereotypes
+
+OCD is one of the most misrepresented conditions in mental health. It is not about being tidy. It is a serious, often debilitating anxiety disorder that traps people in exhausting cycles of fear and ritual. And it is highly treatable.
+
+## What is OCD?
+
+OCD is characterized by two interlocking features: obsessions and compulsions. Obsessions are intrusive, unwanted thoughts, images, or urges that cause intense anxiety. Compulsions are repetitive behaviours performed to reduce that anxiety — temporarily.
+
+Compulsions do not solve the problem. They reinforce it. Every time a person performs a compulsion, the brain learns that the only way to feel safe is to do the ritual — making the cycle stronger over time.
+
+*OCD is not a quirk. It is the brain generating a false alarm — and the person paying an enormous cost to silence it.*
+
+**Common obsession themes:**
+- Contamination and illness fears
+- Harm OCD — fear of hurting others
+- Intrusive sexual or violent thoughts
+- Religious or moral scrupulosity
+- Relationship OCD — doubt about loved ones
+
+**Common compulsion types:**
+- Repeated checking (locks, appliances, doors)
+- Washing or cleaning
+- Mental rituals — reviewing, praying, counting
+- Reassurance-seeking from others
+
+## My approach to treating OCD
+
+The gold standard treatment for OCD is Exposure and Response Prevention (ERP) — a specialized form of CBT that I am trained to deliver.
+
+**1. Psychoeducation** — Understanding the cycle is itself therapeutic.
+**2. Cognitive restructuring** — Challenging the distorted beliefs that give obsessions their power.
+**3. Exposure and Response Prevention (ERP)** — Graduated, supported exposure to feared situations.
+**4. Relapse prevention** — Building skills to catch early warning signs.
+
+---
+
+## Post-Traumatic Stress Disorder
+
+*PTSD is not a sign of weakness. It is a normal nervous system response to abnormal experiences — and healing is genuinely possible.*
+
+## What is PTSD?
+
+PTSD is a mental health condition that develops following exposure to a traumatic event. The critical thing to understand is that PTSD is not a disorder of the past — it is a disorder of the present. The traumatic memory remains raw, intrusive, and emotionally alive.
+
+*PTSD does not mean you are broken. It means something terrible happened to you — and your mind and body are still trying to survive it.*
+
+**Re-experiencing symptoms:**
+- Flashbacks — vivid, involuntary reliving of the traumatic event
+- Nightmares related to the trauma
+- Intense distress when exposed to reminders
+
+**Avoidance and numbing:**
+- Avoiding thoughts or reminders of the trauma
+- Emotional numbing and detachment
+- Loss of interest in previously enjoyed activities
+
+**Hyperarousal:**
+- Hypervigilance — constantly on alert for danger
+- Exaggerated startle response
+- Difficulty sleeping and concentrating
+- Irritability or angry outbursts
+
+## My approach to treating PTSD
+
+**1. Stabilization and safety** — Building emotional regulation skills and grounding techniques before any trauma processing begins.
+
+**2. Trauma-Focused CBT** — Gently helping clients revisit and reprocess traumatic memories, challenging distorted beliefs such as "it was my fault."
+
+**3. EMDR therapy** — Eye Movement Desensitization and Reprocessing is one of the most powerful treatments for PTSD. It helps the brain reprocess traumatic memories so they lose their emotional charge.
+
+**4. Addressing shame and self-blame** — Many trauma survivors carry an unfair burden of guilt. Therapy helps clients understand that what happened to them was not their fault.
+
+PTSD is highly treatable. Full recovery is possible — and people go on to live meaningful, connected lives after trauma.
+    `,
+  },
+  {
+    slug: "self-growth-psychology",
+    title: "Self-Growth: The Psychology of Becoming Who You Are Meant to Be",
+    excerpt: "Self-growth is not a destination. It is a lifelong process of honest self-examination, intentional change, and learning to live more fully.",
     category: "Self Growth",
-    date: "March 15, 2025",
-    readTime: "4 min read",
+    date: "March 28, 2025",
+    readTime: "9 min read",
     image: "/images/blog/self-care.png",
     author: {
       name: "Ms. Ayman Yamin",
@@ -179,39 +422,69 @@ If you are curious about whether CBT could help you, feel free to reach out for 
       image: "/images/ayman.png",
     },
     content: `
-Self-care has become a buzzword, often reduced to luxury products and spa days. But real self-care is about intentional practices that support your mental, emotional, and physical well-being.
+## What does self-growth actually mean?
 
-## 10 Evidence-Based Self-Care Practices
+Genuine self-growth is the willingness to look honestly at yourself, to understand why you think, feel, and behave the way you do — and to make deliberate, sustained changes that bring you closer to the person you want to be.
 
-**1. Prioritize Sleep**
-Sleep is foundational to mental health. Aim for 7-9 hours per night. Poor sleep worsens anxiety, depression, and emotional regulation.
+From a psychological perspective, self-growth is rooted in self-actualization — the realization of one's fullest potential. It is not about becoming perfect. It is about becoming more conscious — more aware of your patterns, your values, your wounds, and your strengths.
 
-**2. Move Your Body**
-Exercise releases endorphins — natural mood boosters. Even a 20-minute walk can improve your mood significantly.
+*Real growth does not happen in a highlight reel. It happens in the quiet, uncomfortable moments when you choose differently than you have before.*
 
-**3. Eat Nourishing Food**
-The gut-brain connection is real. A balanced diet supports brain health and emotional well-being.
+## The psychology behind why we grow — or don't
 
-**4. Practice Gratitude**
-Writing down three things you are grateful for each day rewires your brain toward positivity over time.
+**Neuroplasticity** is the brain's lifelong ability to reorganize itself — forming new neural connections in response to new thoughts, experiences, and behaviours. Change is not just possible at any age; it is biologically built in.
 
-**5. Set Boundaries**
-Learning to say no is an act of self-respect. Boundaries protect your energy and prevent burnout.
+**Psychological safety** refers to the internal conditions that make growth possible. People do not change when they are operating from a place of shame, fear, or self-contempt. A compassionate relationship with yourself is the foundation.
 
-**6. Connect with Others**
-Human connection is a fundamental need. Spend quality time with people who uplift and support you.
+## Internal vs. external self-growth
 
-**7. Limit Screen Time**
-Excessive social media use is linked to increased anxiety and depression. Set healthy limits.
+**Internal self-growth:**
+- Self-awareness and emotional intelligence
+- Healing past trauma and wounds
+- Challenging limiting beliefs
+- Building self-compassion and self-worth
+- Developing values clarity
 
-**8. Spend Time in Nature**
-Nature has a calming effect on the nervous system. Even 15 minutes outside can reduce stress hormones.
+**External self-growth:**
+- Building new skills and competencies
+- Physical health, fitness, and nutrition
+- Career development
+- Improving communication and relationships
+- Pursuing meaningful goals
 
-**9. Practice Mindfulness**
-Even five minutes of mindful breathing per day can reduce stress and improve focus.
+External growth without internal growth is like renovating the outside of a house while the foundations are crumbling. Lasting change requires working on both dimensions together.
 
-**10. Seek Professional Support**
-Therapy is self-care. Speaking with a psychologist is one of the most powerful investments you can make in yourself.
+## The five pillars of self-growth
+
+**01 — Self-awareness:** You cannot change what you cannot see.
+
+**02 — Accountability:** Growth requires honesty about where you are — without tipping into self-blame.
+
+**03 — Discomfort tolerance:** Real growth always involves discomfort. Staying with difficult feelings is a skill that can be developed.
+
+**04 — Consistency:** Transformation is the accumulation of small, repeated choices made day after day.
+
+**05 — Connection:** We do not grow in isolation. Safe relationships are essential environments for lasting change.
+
+## My role as a psychologist in your growth journey
+
+People sometimes ask whether therapy is only for people who are struggling. The answer is no. Some of the most meaningful work I do is with people who are functioning well but sense there is more depth, more freedom, more alignment between who they are and how they are living.
+
+**Understanding your patterns** — Together we explore the beliefs and behaviours that have shaped your life.
+
+**Processing what holds you back** — Unresolved grief, past relationships, childhood experiences often operate quietly beneath the surface.
+
+**Building emotional intelligence** — Understanding and regulating your own emotions is one of the strongest predictors of success in work and relationships.
+
+**Clarifying values and direction** — Many people are busy but feel purposeless. I help clients identify what genuinely matters to them.
+
+**Sustaining change over time** — Insight alone is not enough. I work with clients on building habits, navigating setbacks, and developing self-compassion.
+
+## Where do you begin?
+
+You do not need to have everything figured out before you start. The only requirement is a willingness to show up and look honestly at your life.
+
+A first session is simply a conversation. No commitment, no judgment — just an honest look at where you are and where you want to go. That is enough to begin.
     `,
   },
   {
@@ -269,14 +542,14 @@ Recognizing that you need support is a sign of strength, not weakness. Reaching 
     author: {
       name: "Ms. Ayman Yamin",
       title: "Clinical Psychologist",
-      image: "/images/ayman.jpeg",
+      image: "/images/ayman.png",
     },
     content: `
 Online therapy has transformed the way people access mental health support. Whether you live far from a therapist, have a busy schedule, or simply prefer the comfort of your own home, online therapy offers a flexible and effective solution.
 
 ## What is Online Therapy?
 
-Online therapy, also known as teletherapy or e-therapy, involves receiving psychological support through video calls, phone calls, or messaging platforms. It offers the same evidence-based treatments as in-person therapy, delivered through a digital medium.
+Online therapy involves receiving psychological support through video calls or phone calls. It offers the same evidence-based treatments as in-person therapy, delivered through a digital medium.
 
 ## Is Online Therapy Effective?
 
@@ -285,9 +558,8 @@ Research consistently shows that online therapy is equally effective as face-to-
 ## What to Expect in Your First Session
 
 **Before the Session:**
-- You will receive a secure video link after booking
+- You will receive a confirmation after booking
 - Find a quiet, private space where you feel comfortable
-- Test your internet connection and camera
 
 **During the Session:**
 - Your therapist will ask about what brings you to therapy
@@ -300,11 +572,11 @@ Research consistently shows that online therapy is equally effective as face-to-
 
 ## Tips for Getting the Most Out of Online Therapy
 
-1. Find a private, comfortable space
-2. Use headphones for better audio quality
-3. Be honest and open with your therapist
-4. Complete any exercises or homework between sessions
-5. Give yourself time after the session to reflect
+- Find a private, comfortable space
+- Use headphones for better audio quality
+- Be honest and open with your therapist
+- Complete any exercises or homework between sessions
+- Give yourself time after the session to reflect
 
 ## Ready to Start?
 
