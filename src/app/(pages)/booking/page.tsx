@@ -3,9 +3,10 @@
 import { InlineWidget } from "react-calendly"
 import { usePageAnimation } from "@/hooks/usePageAnimation"
 import { CheckCircle } from "lucide-react"
+import { services } from "@/data/services"
 
 const benefits = [
-  "50-minute confidential session",
+  "45-minute confidential session",
   "Available in Urdu & English",
   "Secure Google Meet video call",
   "Flexible scheduling worldwide",
@@ -60,26 +61,29 @@ export default function BookingPage() {
               </ul>
             </div>
 
-            {/* Price */}
-            <div className="bg-white rounded-2xl p-6 border border-[#e8eef3]">
-              <h3 className="font-serif text-xl text-[#1E2D3D] mb-4">
-                Session Fees
-              </h3>
-              <div className="space-y-3">
-                <div className="flex items-center justify-between py-2 border-b border-[#e8eef3]">
-                  <span className="text-sm text-[#5a6a7a]">Individual (50 min)</span>
-                  <span className="text-sm font-medium text-[#2C3E50]">PKR 5,000 / $25</span>
-                </div>
-                <div className="flex items-center justify-between py-2 border-b border-[#e8eef3]">
-                  <span className="text-sm text-[#5a6a7a]">Couples (60 min)</span>
-                  <span className="text-sm font-medium text-[#2C3E50]">PKR 7,000 / $35</span>
-                </div>
-                <div className="flex items-center justify-between py-2">
-                  <span className="text-sm text-[#5a6a7a]">Self Growth (50 min)</span>
-                  <span className="text-sm font-medium text-[#2C3E50]">PKR 4,500 / $22</span>
-                </div>
-              </div>
-            </div>
+{/* Price */}
+<div className="bg-white rounded-2xl p-6 border border-[#e8eef3]">
+  <h3 className="font-serif text-xl text-[#1E2D3D] mb-4">
+    Session Fees
+  </h3>
+  <div className="space-y-3">
+    {services.map((service, i) => (
+      <div
+        key={service.slug}
+        className={`flex items-center justify-between py-2 ${
+          i !== services.length - 1 ? "border-b border-[#e8eef3]" : ""
+        }`}
+      >
+        <span className="text-sm text-[#5a6a7a]">
+          {service.title} ({service.duration})
+        </span>
+        <span className="text-sm font-medium text-[#2C3E50]">
+          PKR {service.pricePKR.toLocaleString()} / ${service.priceUSD}
+        </span>
+      </div>
+    ))}
+  </div>
+</div>
 
             {/* Payment */}
             <div className="bg-[#4A7B9D] rounded-2xl p-6 text-white">

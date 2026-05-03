@@ -75,10 +75,12 @@ export default function Navbar() {
                 </Link>
               ))}
               <div className="mt-6 px-2">
-                <Button className="w-full bg-[#4A7B9D] hover:bg-[#2C3E50] text-white rounded-full">
-                  Book Session
-                </Button>
-              </div>
+  <Link href="/booking" onClick={() => setOpen(false)}>
+    <Button className="w-full bg-[#4A7B9D] hover:bg-[#2C3E50] text-white rounded-full">
+      Book Session
+    </Button>
+  </Link>
+</div>
             </div>
           </SheetContent>
         </Sheet>
