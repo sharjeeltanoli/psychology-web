@@ -3,7 +3,7 @@ import { services } from "@/data/services"
 import { blogPosts } from "@/data/blogs"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://aymanyamin.vercel.app"
+  const baseUrl = "https://aymanyamin.com"
 
   const servicePages = services.map((service) => ({
     url: `${baseUrl}/services/${service.slug}`,

@@ -95,7 +95,7 @@ export default function AboutPageContent() {
                 style={{ borderRadius: "42% 58% 55% 45% / 48% 42% 58% 52%" }}
               >
                 <Image
-                  src="/images/ayman.jpg"
+                  src="/images/ayman.png"
                   alt="Ms. Ayman Yamin - Clinical Psychologist"
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"

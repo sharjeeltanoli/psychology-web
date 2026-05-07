@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://aymanyamin.vercel.app",
+    url: "https://aymanyamin.com",
     title: "Ms. Ayman Yamin | Clinical Psychologist",
     description:
       "Online therapy for anxiety, depression, trauma & more. Available worldwide.",
@@ -84,8 +84,8 @@ export default function RootLayout({
     "name": "Ms. Ayman Yamin",
     "jobTitle": "Clinical Psychologist",
     "description": "Clinical Psychologist offering online therapy for anxiety, depression, trauma, addiction and more.",
-    "url": "https://aymanyamin.vercel.app",
-    "image": "https://aymanyamin.vercel.app/images/ayman.jpg",
+    "url": "https://aymanyamin.com",
+    "image": "https://aymanyamin.com/images/ayman.jpg",
     "email": "aymanyamin427@gmail.com",
     "address": {
       "@type": "PostalAddress",
