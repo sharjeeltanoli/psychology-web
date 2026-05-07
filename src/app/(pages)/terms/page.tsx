@@ -7,6 +7,29 @@ export const metadata: Metadata = {
   description: "Terms of Service for aymanyamin.com — Please read these terms carefully before using our services.",
 }
 
+function renderContent(content: string) {
+  return content.split("\n").map((line, j) => {
+    if (line.trim() === "") return <br key={j} />
+
+    if (line.startsWith("- ")) {
+      return (
+        <p key={j} className="flex items-start gap-2 my-1">
+          <span className="text-[#7EB5A6] mt-0.5 shrink-0">•</span>
+          <span dangerouslySetInnerHTML={{
+            __html: line.replace("- ", "").replace(/\*\*(.*?)\*\*/g, "<strong class='font-medium text-[#1E2D3D]'>$1</strong>")
+          }} />
+        </p>
+      )
+    }
+
+    return (
+      <p key={j} className="my-1.5" dangerouslySetInnerHTML={{
+        __html: line.replace(/\*\*(.*?)\*\*/g, "<strong class='font-medium text-[#1E2D3D]'>$1</strong>")
+      }} />
+    )
+  })
+}
+
 export default function TermsPage() {
   return (
     <main className="bg-[#F7F3EE] min-h-screen">
@@ -28,37 +51,19 @@ export default function TermsPage() {
 
       {/* Content */}
       <div className="container mx-auto px-6 py-16 max-w-3xl">
-        <div className="space-y-10">
+        <div className="space-y-6">
           {termsOfService.sections.map((section, i) => (
             <div key={i} className="bg-white rounded-2xl p-8 border border-[#e8eef3]">
               <h2 className="font-serif text-2xl text-[#1E2D3D] mb-4">
                 {section.title}
               </h2>
               <div className="text-sm text-[#5a6a7a] leading-relaxed">
-                {section.content.split("\n").map((line, j) => {
-                  if (line.startsWith("**") && line.endsWith("**")) {
-                    return (
-                      <p key={j} className="font-medium text-[#1E2D3D] mt-3 mb-1">
-                        {line.replace(/\*\*/g, "")}
-                      </p>
-                    )
-                  }
-                  if (line.startsWith("- ")) {
-                    return (
-                      <p key={j} className="flex items-start gap-2 my-1">
-                        <span className="text-[#7EB5A6] mt-1">•</span>
-                        {line.replace("- ", "")}
-                      </p>
-                    )
-                  }
-                  return <p key={j} className="my-1">{line}</p>
-                })}
+                {renderContent(section.content)}
               </div>
             </div>
           ))}
         </div>
 
-        {/* Back */}
         <div className="mt-10 text-center">
           <Link
             href="/"
