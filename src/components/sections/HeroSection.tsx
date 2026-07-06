@@ -52,7 +52,12 @@ const years = useCountUp(experience)
           {/* Heading */}
           <h1 className="font-serif text-5xl md:text-6xl font-medium text-[#1E2D3D] leading-[1.15] mb-5">
             Healing minds,{" "}
-            <em className="text-[#4A7B9D] not-italic">restoring lives</em>{" "}
+            <em
+              className="italic font-medium bg-clip-text text-transparent"
+              style={{ backgroundImage: "linear-gradient(92deg, #4A7B9D, #7EB5A6 90%)" }}
+            >
+              restoring lives
+            </em>{" "}
             with compassion
           </h1>
 
