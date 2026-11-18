@@ -4,7 +4,7 @@ export const SITE_CONFIG = {
   description: "Professional psychology services for anxiety, depression, relationships and more. Online sessions available worldwide.",
   email: "aymanyamin427@gmail.com",
   phone: "+92-326-3969440",
-  whatsapp: "+92-326-3969440",
+  whatsapp: "923263969440",
   location: "Islamabad, Pakistan",
   currency: {
     local: "PKR",
